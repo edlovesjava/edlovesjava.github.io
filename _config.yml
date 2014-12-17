@@ -1,0 +1,13 @@
+# Site settings
+title: edlovesjava projects blog
+email: edlovesjava@yahoo.com
+description: > # 
+  this blog is intended to describe some of the technologies I am 
+  working with and perhaps help others along the way.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://edlovesjava.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
