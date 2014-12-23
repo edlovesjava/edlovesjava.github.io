@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ionic Getting Started"
-date:   2014-12-20 15:34
+date:   2014-12-20 08:34
 categories: project intro
 ---
 
@@ -12,6 +12,10 @@ categories: project intro
 The ionic's getting started guide walks through the steps to create the obligitory todo application that can be compiled and run natively on ios and android devices. 
 
 I walked through the steps in installing in a [previous blog article]({% post_url 2014-12-18-install-ionic %})
+
+My next blog article will discuss modifications I made to expand the example.
+
+
 
 [ionic]: http://ionicframework.com
 [cordova]:   http://cordova.apache.org/
