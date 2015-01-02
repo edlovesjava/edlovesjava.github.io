@@ -13,33 +13,28 @@ This is part of a series [extending ionic todo example][parent]
 
  To do so, I thought it would be ok to add an icon to the right side of the task using the ion-edit icon (pencil).
 
+learnings featured:
 
+ * icons from [ionicons.com][ionicons]
+ * using [`$ionicModal`](http://ionicframework.com/docs/api/service/$ionicModal/)
 
-### given
+### add the edit icon
 
-{% highlight html %}
-{% raw %}
-...
-          <ion-list>
-            <ion-item class="item" ng-repeat="task in activeProject.tasks">
-              {{task.title}}
-            </ion-item>
-          </ion-list>
- ...
-{% endraw %}
-{% endhighlight %}
+Given a workng todo example after following along with [ionics code example][codeexample]:
 
-### changed to 
+(for a complete working todo you can start with the sample todo project [from ionic on github][ionic-todo] )
+
+Change the display of the item by adding an icon from [ionicons.com][ionicons]
 
 {% highlight html %}
 {% raw %}
 ...
-          <ion-list>
-            <ion-item class="item" ng-repeat="task in activeProject.tasks">
-              {{task.title}}
-              <i class="icon ion-edit" ng-click="editTask($index, task)"></i>
-            </ion-item>
-          </ion-list>
+<ion-list>
+  <ion-item class="item" ng-repeat="task in activeProject.tasks">
+    {{task.title}}
+    <i class="icon ion-edit" ng-click="editTask($index, task)"></i>
+  </ion-item>
+</ion-list>
  ...
 {% endraw %}
 {% endhighlight %}
@@ -50,7 +45,6 @@ And I also added a template after the new task template called 'edit-task.html'
 {% raw %}
 
 <script id="edit-task.html" type="text/ng-template">
-
   <div class="modal">
 
     <!-- Modal header bar -->
@@ -58,10 +52,9 @@ And I also added a template after the new task template called 'edit-task.html'
       <h1 class="title">Edit Task</h1>
       <button class="button button-clear button-positive" ng-click="closeEditTask()">Cancel</button>
     </ion-header-bar>
-
+    
     <!-- Modal content area -->
     <ion-content>
-
       <form ng-submit="updateTask(taskIndex, task)">
         <div class="list">
           <label class="item item-input">
@@ -71,11 +64,8 @@ And I also added a template after the new task template called 'edit-task.html'
         <div class="padding">
           <button type="submit" class="button button-block button-positive">Update Task</button>
         </div>
-
       </form>
-
     </ion-content>
-
   </div>
 </script> 
 
@@ -155,5 +145,11 @@ Notice the addtion of:
  
  When `editTask` function is called to open the `editTaskModal` modal dialog, the angular variable $index is used in the html to identify the index of the item populated using an `ng-repeat` directive. This index is then set in the scope variable itemIndex for the template to use on submit calling `updateTask` function. 
 
+*the code sample can be found on [my github page][codesample]*
+
+
 
 [parent]:   {% post_url 2014-12-20-expand-the-ionic-example %}
+[codesample]: https://github.com/edlovesjava/ionic-todo
+[ionicons]: http://ionicons.com 
+[ionic-todo]: https://github.com/driftyco/ionic-todo

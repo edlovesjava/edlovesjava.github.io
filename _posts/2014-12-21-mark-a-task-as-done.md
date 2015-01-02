@@ -9,6 +9,10 @@ categories: project intro
 
 This is part of a series [extending ionic todo example][parent]
 
+learnings featured:
+
+ * [&lt;ion-checkbox&gt; directive](http://ionicframework.com/docs/api/directive/ionCheckbox/)
+
 ### story description
 
  > as a user I wish to mark a task as done
@@ -181,5 +185,8 @@ Notice in this version I am using two icons alternating between them depending o
 
 the &lt;ion-checkbox&gt; directive is used here to set the state of done to 'YES' or 'NO' value once again. 
 
+*the code sample can be found on [my github page][codesample]*
+
 [parent]:   {% post_url 2014-12-20-expand-the-ionic-example %}
 [editatask]: {% post_url 2014-12-20-edit-a-task %}
+[codesample]: https://github.com/edlovesjava/ionic-todo
