@@ -431,5 +431,8 @@ notice that the index.html doesn't have any additional scripts for templates. Al
 
 *the code for this can be found on [my github page][samplecode2]*
 
+[next article in series][next]
+
+[next]: {% post_url 2014-12-23-use-routing %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2

@@ -147,9 +147,11 @@ Notice the addtion of:
 
 *the code sample can be found on [my github page][codesample]*
 
+[next article in series][next]
 
 
 [parent]:   {% post_url 2014-12-20-expand-the-ionic-example %}
 [codesample]: https://github.com/edlovesjava/ionic-todo
 [ionicons]: http://ionicons.com 
 [ionic-todo]: https://github.com/driftyco/ionic-todo
+[next]: {% post_url 2014-12-21-mark-a-task-as-done %}

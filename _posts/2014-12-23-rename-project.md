@@ -147,5 +147,8 @@ in the 'controllers.js' add the method `updateProject` to save the updated proje
 
 *the code for this can be found on [my github page][samplecode2]*
 
+[next article in series][next]
+
+[next]: {% post_url 2014-12-30-remove-project %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2

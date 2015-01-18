@@ -13,10 +13,12 @@ The ionic's getting started guide walks through the steps to create the obligito
 
 I walked through the steps in installing in a [previous blog article]({% post_url 2014-12-18-install-ionic %})
 
-My next blog article will discuss modifications I made to expand the example.
+My [next blog article][next] will discuss modifications I made to expand the example.
 
 
 
 [ionic]: http://ionicframework.com
 [cordova]:   http://cordova.apache.org/
+[next]: {% post_url 2014-12-20-expand-the-ionic-example %}
+
 

@@ -22,10 +22,13 @@ I was inspired by [this example][sampletofollow] to refactor to a mulitple file 
  * [as a user I wish to remove a project and its tasks][removeproject]
  * [as a user I wish to show the completed tasks with a strikethrough][showstrikethrough]
  * [as a user I wish to see tasks in order of most recently added][ordertasks]
- * as a user I wish to hide the tasks that are done
+ * as a user I wish to strike through the tasks that are done
 
 *the code for this can be found on [my github page][samplecode2]*
 
+[next article in series][next]
+
+[next]: {% post_url 2014-12-23-multiple-files %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 [sampletofollow]: http://forum.ionicframework.com/t/ion-list-example-with-add-delete-edit-default-items/2133?username_filters=Alex

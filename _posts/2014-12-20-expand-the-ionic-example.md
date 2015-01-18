@@ -11,7 +11,9 @@ I started by following the example provided step by step (chapter 1 - 6), includ
 
 The [ionic example][ionicexample] as described in the guide is limited to features of being able to add projects, and also tasks to projects. I have added the following features to futher enforce my learning.
 
-Additional stories:
+Either complete the book example as desribed in the ionic documentation, or you can get it from [my project page here][ionictodoorig].
+
+Additional stories I will add:
 
  * [as a user I want to edit a task][edittask]
  * [as a user I want to mark a task as done][markdone]
@@ -22,10 +24,12 @@ Additional stories:
  * [as a developer I would like to use multiple files for javascript and templates][multiplefiles]
  * [as a developer I wish to use the angluar router so I can add additional routes for more advanced interactions][userouting] 
  * [as a user I wish to rename a project][renameproject]
- * as a user I wish to remove a project and its tasks
- * as a user I wish to see tasks in order of most recently added
- * as a user I wish to hide the tasks that are done
-
+ * [as a user I wish to remove a project and its tasks][removeproject]
+ * [as a user I wish to show the completed tasks with a strikethrough][showstrikethrough]
+ * [as a user I wish to see tasks in order of most recently added][ordertasks]
+ * [as a user I wish to see tasks in order of most recently added (improved)][ordertasksbetter]
+ * as a user I wish to strike through the tasks that are done
+ 
 Additional ambitious stories:
 
  * as a user I wish to persist users data on the cloud so It can be shared with other apps and devices
@@ -36,11 +40,7 @@ The completed code can be found on [my github page][codesample]
 
 I will walk through the additions I have done.
 
-Articles in the series:
-
- 1. See post 1 [editing a task][edittask]
- 1. See post 2 [mark task as done][markdone]
- 1. See post 3 [delete a task][taskdelete]
+[next article in series][edittask]
 
 [markdone]:    {% post_url 2014-12-21-mark-a-task-as-done %}
 [edittask]:    {% post_url 2014-12-20-edit-a-task %}
@@ -51,3 +51,8 @@ Articles in the series:
 [userouting]: {% post_url 2014-12-23-use-routing %}
 [renameproject]: {% post_url 2014-12-23-rename-project %}
 [codesample]: https://github.com/edlovesjava/ionic-todo
+[removeproject]: {% post_url 2014-12-30-remove-project %}
+[ordertasks]: {% post_url 2014-12-31-order-tasks %}
+[ordertasksbetter]: {% post_url 2014-12-31-order-tasks-better %}
+[showstrikethrough]: {% post_url 2014-12-31-show-strikethrough %}
+[ionictodoorig]: https://github.com/edlovesjava/ionic-todo-orig

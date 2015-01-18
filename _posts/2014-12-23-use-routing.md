@@ -148,6 +148,9 @@ angular.module('todo', ['ionic', 'todo.services', 'todo.controllers'])
 
 *the code for this can be found on [my github page][samplecode2]*
 
+[next article in series][next]
+
+[next]: {% post_url 2014-12-23-rename-project %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 

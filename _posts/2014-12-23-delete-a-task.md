@@ -109,7 +109,10 @@ I followed the documentation and example for the [ionic popup][ionicpopup] but u
 
 *the code sample can be found on [my github page][codesample]*
 
+[next article in series][next]
+
 [parent]:   {% post_url 2014-12-20-expand-the-ionic-example %}
 [editatask]: {% post_url 2014-12-20-edit-a-task %}
+[next]: {% post_url 2014-12-23-refactor-and-extend %}
 [codesample]: https://github.com/edlovesjava/ionic-todo
 [ionicpopup]: http://ionicframework.com/docs/api/service/$ionicPopup/

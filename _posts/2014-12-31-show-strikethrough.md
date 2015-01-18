@@ -98,6 +98,9 @@ Complete 'todo-list.html'
 
 *the code for this can be found on [my github page][samplecode2]*
 
+[next article in the series][next]
+
+[next]: {% post_url 2014-12-31-order-tasks %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 

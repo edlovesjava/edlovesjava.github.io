@@ -187,6 +187,9 @@ the &lt;ion-checkbox&gt; directive is used here to set the state of done to 'YES
 
 *the code sample can be found on [my github page][codesample]*
 
+[next article in series][next]
+
 [parent]:   {% post_url 2014-12-20-expand-the-ionic-example %}
 [editatask]: {% post_url 2014-12-20-edit-a-task %}
 [codesample]: https://github.com/edlovesjava/ionic-todo
+[next]: {% post_url 2014-12-23-delete-a-task %}

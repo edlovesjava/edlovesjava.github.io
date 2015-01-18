@@ -394,7 +394,6 @@ modify `deleteTask` of 'controllers.js' to remove the `i` parameter
 
 *the code for this can be found on [my github page][samplecode2]*
 
-
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 [orderby]: https://docs.angularjs.org/api/ng/filter/orderBy

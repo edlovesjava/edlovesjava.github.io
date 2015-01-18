@@ -153,6 +153,9 @@ Modify `updateTask` method in 'controllers.js' to call the `orderProjectTasks` m
 *the code for this can be found on [my github page][samplecode2]*
 
 
+[next article in series][next]
+
+[next]: {% post_url 2015-01-02-order-tasks-better %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 [orderby]: https://docs.angularjs.org/api/ng/filter/orderBy
