@@ -8,3 +8,6 @@ categories: project intro
 ## story: refactor to use angularUI router
 
 
+Yeoman is
+
+The angular generator: [generator-angular](https://github.com/yeoman/generator-angular)
