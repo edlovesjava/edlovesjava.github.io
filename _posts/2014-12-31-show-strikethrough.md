@@ -100,7 +100,7 @@ Complete 'todo-list.html'
 
 [next article in the series][next]
 
-[next]: {% post_url 2014-12-31-order-tasks %}
+[next]: {% post_url 2015-01-01-order-tasks %}
 [parent]: {% post_url 2014-12-23-refactor-and-extend %}
 [samplecode2]: https://github.com/edlovesjava/ionic-todo2
 

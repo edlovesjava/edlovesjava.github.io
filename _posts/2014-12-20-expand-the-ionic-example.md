@@ -28,7 +28,7 @@ Additional stories I will add:
  * [as a user I wish to show the completed tasks with a strikethrough][showstrikethrough]
  * [as a user I wish to see tasks in order of most recently added][ordertasks]
  * [as a user I wish to see tasks in order of most recently added (improved)][ordertasksbetter]
- * as a user I wish to strike through the tasks that are done
+ * as a user I wish to hide the tasks that are done
  
 Additional ambitious stories:
 
@@ -42,17 +42,17 @@ I will walk through the additions I have done.
 
 [next article in series][edittask]
 
-[markdone]:    {% post_url 2014-12-21-mark-a-task-as-done %}
-[edittask]:    {% post_url 2014-12-20-edit-a-task %}
-[ionicexample]: http://ionicframework.com/docs/guide/
-[installionic]: {% post_url 2014-12-18-install-ionic %}
-[taskdelete]:     {% post_url 2014-12-23-delete-a-task %}
-[multiplefiles]: {% post_url 2014-12-23-multiple-files %}
-[userouting]: {% post_url 2014-12-23-use-routing %}
-[renameproject]: {% post_url 2014-12-23-rename-project %}
-[codesample]: https://github.com/edlovesjava/ionic-todo
-[removeproject]: {% post_url 2014-12-30-remove-project %}
-[ordertasks]: {% post_url 2014-12-31-order-tasks %}
-[ordertasksbetter]: {% post_url 2014-12-31-order-tasks-better %}
+[markdone]:          {% post_url 2014-12-21-mark-a-task-as-done %}
+[edittask]:          {% post_url 2014-12-20-edit-a-task %}
+[installionic]:      {% post_url 2014-12-18-install-ionic %}
+[taskdelete]:        {% post_url 2014-12-23-delete-a-task %}
+[multiplefiles]:     {% post_url 2014-12-23-multiple-files %}
+[userouting]:        {% post_url 2014-12-23-use-routing %}
+[renameproject]:     {% post_url 2014-12-23-rename-project %}
+[removeproject]:     {% post_url 2014-12-30-remove-project %}
 [showstrikethrough]: {% post_url 2014-12-31-show-strikethrough %}
-[ionictodoorig]: https://github.com/edlovesjava/ionic-todo-orig
+[ordertasks]:        {% post_url 2015-01-01-order-tasks %}
+[ordertasksbetter]:  {% post_url 2015-01-02-better-order-tasks %}
+[ionicexample]:      http://ionicframework.com/docs/guide/
+[ionictodoorig]:     https://github.com/edlovesjava/ionic-todo-orig
+[codesample]:        https://github.com/edlovesjava/ionic-todo

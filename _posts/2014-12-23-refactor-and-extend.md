@@ -22,22 +22,22 @@ I was inspired by [this example][sampletofollow] to refactor to a mulitple file 
  * [as a user I wish to remove a project and its tasks][removeproject]
  * [as a user I wish to show the completed tasks with a strikethrough][showstrikethrough]
  * [as a user I wish to see tasks in order of most recently added][ordertasks]
- * as a user I wish to strike through the tasks that are done
+ * as a user I wish to hide the tasks that are done
 
 *the code for this can be found on [my github page][samplecode2]*
 
 [next article in series][next]
 
-[next]: {% post_url 2014-12-23-multiple-files %}
-[parent]: {% post_url 2014-12-23-refactor-and-extend %}
-[samplecode2]: https://github.com/edlovesjava/ionic-todo2
+[next]:           {% post_url 2014-12-23-multiple-files %}
+[parent]:         {% post_url 2014-12-23-refactor-and-extend %}
+[samplecode2]:    https://github.com/edlovesjava/ionic-todo2
 [sampletofollow]: http://forum.ionicframework.com/t/ion-list-example-with-add-delete-edit-default-items/2133?username_filters=Alex
-[multiplefiles]: {% post_url 2014-12-23-multiple-files %}
-[userouting]: {% post_url 2014-12-23-use-routing %}
-[renameproject]: {% post_url 2014-12-23-rename-project %}
-[expand]: {% post_url 2014-12-20-expand-the-ionic-example %}
-[ionicguide]: http://ionicframework.com/docs/guide/
-[removeproject]: {% post_url 2014-12-30-remove-project %}
+[multiplefiles]:  {% post_url 2014-12-23-multiple-files %}
+[userouting]:     {% post_url 2014-12-23-use-routing %}
+[renameproject]:  {% post_url 2014-12-23-rename-project %}
+[expand]:         {% post_url 2014-12-20-expand-the-ionic-example %}
+[ionicguide]:     http://ionicframework.com/docs/guide/
+[removeproject]:  {% post_url 2014-12-30-remove-project %}
 [showstrikethrough]: {% post_url 2014-12-31-show-strikethrough %}
-[ordertasks]: {% post_url 2014-12-31-order-tasks %}
+[ordertasks]:     {% post_url 2015-01-01-order-tasks %}
 
