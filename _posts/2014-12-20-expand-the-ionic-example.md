@@ -3,6 +3,7 @@ layout: post
 title:  "Expanding on todo : extending on the Ionic todo example"
 date:   2014-12-20 16:00
 categories: project intro
+tag: series
 ---
 
 This post outlines a set of changes made to the [Ionic framework Todo example][ionicexample] to further enhance the learning and create a useful working deliverable. Since I work in places using [agile methodologies](http://agilemanifesto.org) I will make these modifications as a set of stories.
@@ -22,20 +23,20 @@ Additional stories I will add:
 [Next series]({% post_url 2014-12-23-refactor-and-extend %}) I want to tackle the following:
 
  * [as a developer I would like to use multiple files for javascript and templates][multiplefiles]
- * [as a developer I wish to use the angluar router so I can add additional routes for more advanced interactions][userouting] 
+ * [as a developer I wish to use the angluar router so I can add additional routes for more advanced interactions][userouting]
  * [as a user I wish to rename a project][renameproject]
  * [as a user I wish to remove a project and its tasks][removeproject]
  * [as a user I wish to show the completed tasks with a strikethrough][showstrikethrough]
  * [as a user I wish to see tasks in order of most recently added][ordertasks]
  * [as a user I wish to see tasks in order of most recently added (improved)][ordertasksbetter]
  * as a user I wish to hide the tasks that are done
- 
+
 Additional ambitious stories:
 
  * as a user I wish to persist users data on the cloud so It can be shared with other apps and devices
  * as a user I wish to share my tasks and projects with others
  * as a user I wish to stop sharing my tasks and projects with others
- 
+
 The completed code can be found on [my github page][codesample]
 
 I will walk through the additions I have done.

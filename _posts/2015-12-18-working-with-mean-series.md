@@ -3,6 +3,7 @@ layout: post
 title:  "Working with MEAN: article series"
 date:   2015-12-18 7:17
 categories: project intro
+tag: series
 ---
 
 # explaining MEAN
