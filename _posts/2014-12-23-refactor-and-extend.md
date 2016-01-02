@@ -3,6 +3,7 @@ layout: post
 title:  "Refactor and extend"
 date:   2014-12-23 08:00
 categories: project intro
+tag: series
 ---
 
 A [previous series of posts][expand] described how I extended the [ionc sample todo app][ionicguide] to a more functioning todo application. This series further expands on the todo app by refactoring into more manageable chunks, and adding some more features.
@@ -13,7 +14,7 @@ A [previous series of posts][expand] described how I extended the [ionc sample t
 I was inspired by [this example][sampletofollow] to refactor to a mulitple file project following anglular js typical approaches. This example chose to separate the javascript out of one big app.js into multiple js files: use one services.js for services, one controllers.js for all controllers and a much smaller app.js just to initialize the router. The app.js shows the use of the anglular router technology to route to the first page which will show the list of tasks. For this example this is the only page. The project also used one file per template and I will do the same.
 
  * [as a developer I would like to use multiple files for javascript and templates][multiplefiles]
- * [as a developer I wish to use the angluar router so I can add additional routes for more advanced interactions][userouting] 
+ * [as a developer I wish to use the angluar router so I can add additional routes for more advanced interactions][userouting]
 
 
 ## extend stories
